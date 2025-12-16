@@ -1,0 +1,27 @@
+{
+  "last_node_id": 10,
+  "last_link_id": 10,
+  "nodes": [
+    {
+      "id": 3,
+      "type": "KSampler",
+      "widgets_values": [20, "fixed", 1, "euler", "normal", 1]
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "widgets_values": ["cyberpunk city, rain, neon lights"]
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "widgets_values": ["text, watermark"]
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "widgets_values": ["ComfyUI"]
+    }
+  ],
+  "links": []
+}
